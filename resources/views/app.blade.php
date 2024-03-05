@@ -11,7 +11,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
     <link rel="stylesheet" href="{{ asset('css/fonts.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}?{{ time() }}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
 
 <body>
@@ -27,7 +27,7 @@
             crossorigin="anonymous"></script>
         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
         <script src="{{ asset('js/core.min.js') }}"></script>
-        <script src="{{ asset('js/script.js') }}?{{ time() }}"></script>
+        <script src="{{ asset('js/script.js') }}"></script>
         @stack('script')
 </body>
 
